@@ -1,0 +1,475 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+}
+body {
+	font-family:Arial, Helvetica, sans-serif, "宋体";
+	font-size:12px;
+}
+a {
+	text-decoration:none;
+	color:#6A6A78;
+}
+a:hover {
+	text-decoration:underline;
+}
+a img {
+	border:none;
+}
+
+input {
+	border:1px solid #ccc;
+	height:19px;
+}
+
+#fath1 {
+	width: 1450px;
+	width:100%;
+	border-bottom:1px solid #dde3e4;
+	overflow:hidden;
+	background:#f0f5f6;
+}
+
+.box1{
+	width:985px;
+	overflow:hidden;
+	margin:0 auto;
+	line-height:29px;
+	/* background-color: #dde3e4; */
+}
+.box1 p {
+	float:left;
+	color:#a9b5b7;
+}
+.box1 p span, .box1 p a {
+	color:#e20c3a;
+	margin:0 3px;
+}
+.box1 p a:hover {
+	text-decoration:underline;
+}
+.box1 ul {
+	float:right;
+}
+.box1 li {
+	float:left;
+	margin:0 4px;
+	color:#dc0050;
+}
+.box1 li a {
+	color:#6a6a78;
+}
+.box1 li span {
+	color:#dde3e4;
+	margin-left:4px;
+	font-family:Arial;
+}
+.box1 li.red a {
+	color:#dc0050;
+}
+.box1 li.cash {
+	width:46px;
+	height:18px;
+	overflow:hidden;
+	margin:5px 6px 0;
+	text-align:center;
+	line-height:22px;
+}
+.box1 li.cash a {
+	background:url(../img/4/pink_btn.gif) 0 0 no-repeat;
+	color:#fff;
+	display:block;
+}
+.box1 li.cash a:hover {
+	text-decoration:none;
+}
+.box1 li.submenu {
+	background:url(../img/4/top_menu_icon.1.gif) 49px 9px no-repeat;
+	width:68px;
+	line-height:30px;
+}
+.pink_btn {
+	width:46px;
+	height:18px;
+	background:url(../images/pink_btn.gif) 0 0 no-repeat;
+}
+
+
+#fath2{
+	width:985px;
+	height: 4000px;
+	margin:0 auto;
+}
+
+.top {
+	background-color: #FFFFFF;
+	width:100%;
+	overflow:hidden;
+	margin:9px 0;
+}
+
+
+.a1{
+	display: inline;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-left: 80px;
+}
+.logo {
+	background-image: url(../img/4/logo1.png);
+	background-size: 203px 70px;
+	float:left;
+	width:203px;
+	height:71px;
+	/* text-indent:-9999px; */
+} 
+/* .i1{
+	width: 100px;
+	height: 100px;
+	display: inline;
+	left: ;
+} */
+.logo a {
+	display:block;
+	width:203px;
+	height:71px;
+}
+.serbar {
+	background:url(../img/3/item1.png) 1px 1px no-repeat;
+	background-size: 300px 71px;
+	float:left;
+	width:300px;
+	height:71px;
+	/* display: inline; */
+}
+
+
+
+.search {
+	display: inline;
+	float:right;
+	margin-top:10px;
+}
+.searchinput {
+	background:url(../img/4/search_input.gif) 0 0 no-repeat;
+	width:293px;
+	height:31px;
+	border:none;
+	line-height:30px;
+	padding-left:10px;
+	float:left;
+}
+.searchbtn {
+	background:url(../img/4/search_btn.gif) 0 0 no-repeat;
+	width:83px;
+	height:31px;
+	float:left;
+	border:none;
+	cursor:pointer;
+}
+.list {
+	width:100%;
+	overflow:hidden;
+	background-color: #8B0000;
+	font-size:14px;
+}
+.list ul {
+	background-color: #8B0000;
+	width:100%;
+	height:36px;
+}
+.list li {
+	float:left;
+	height:36px;
+	line-height:36px;
+	overflow:hidden;
+	margin:0 50px 0 40px;
+	display:inline;
+}
+.list li a {
+	color:#fff;
+	font-weight:bold;
+}
+#i3{
+	font-size: 20px;
+	font-weight: bolder;
+}
+#i3 a:hover{
+	color: goldenrod;
+}
+
+.class-1 {
+	padding:5px;
+}
+.class-1 input{border:0px;}
+.sxh-list {
+	margin-bottom:30px;
+}
+
+.pic img{
+	width: 985px;
+	height: 80px;
+}
+
+#hh{
+	width: 985px;
+	height: 4640px;
+	background: linear-gradient(to top,moccasin,white);
+	
+}
+
+
+.slide{/*设置播放器盒子slide的样式*/
+        position: relative;
+        margin:0px auto;
+        width: 985px;
+        height: 450px;
+        text-align: center;
+        font-family: Arial;
+        color: #FFF;
+        overflow: hidden;
+    }
+.slide ul{
+        margin:10px 0;
+        padding:0;
+        width: 9999px;
+        transition:all 0.5s;/*控制所有动画完成时间是0.5秒，即完成一次图片切换勇士0.5秒*/
+    }
+.slide li{
+        float: left;
+        width: 985px;
+        height: 450px;
+        list-style: none;
+        line-height: 200px;
+        font-size: 36px;
+    }
+.slide li:nth-child(1){/*:nth-child(n) 选择器匹配属于其父元素的第 N 个子元素，不论元素的类型。*/
+        background-image: url(../img/4/pic1.jpg);/*设置背景颜色*/
+		background-size: 985px 450px;
+		
+    }
+.slide li:nth-child(2){
+		background-image: url(../img/4/pic2.jpg);/*设置背景图片*/
+		background-size: 985px 450px;
+    }
+
+.slide input[name="sildeInput"]{
+        display: none;
+		position: absolute;
+    }
+ 
+.slide label[for^="sildeInput"]{/*包含sildeInput的，统一进行样式设置，这里即设置文字123的统一样式*/
+        position: absolute;
+        top:400px;
+		
+        width: 20px;
+        height: 20px;
+        margin: 0 10px;
+        line-height: 20px;
+        color: #FFF;
+        background-color:black;
+        cursor: pointer;
+    }
+.slide label[for^="sildeInput"]:hover{ 
+		color:#F00;/*控制鼠标悬浮在文字上时，文字颜色变为红色*/
+		}
+		
+@keyframes marginLeft{/*以百分比来规定改变发生的时间，0% 是动画的开始时间，100% 动画的结束时间。*/
+        0%，50%{margin-left: 0;}
+        50%，100%{margin-left: -400px;}
+        /* 66.7%，95.2%{margin-left: -800px;}
+        100%{margin-left: 0;} */
+    }
+ 
+/*控制三个文字的样式*/
+.slide label[for="sildeInput1"]{
+	position: absolute;
+    left: 400px;
+    }
+.slide label[for="sildeInput2"]{
+        position: absolute;
+		left: 600px;
+    }
+/* .slide label[for="sildeInput3"]{
+        left: 60px;
+    } */
+	
+/*当点击按钮文字时2，控制ul显示的内容*/
+#sildeInput1:checked ~ ul{ margin-left: 0;}
+#sildeInput2:checked ~ ul{ margin-left: -985px;}
+/* #sildeInput3:checked ~ ul{ margin-left: -2130px;} */
+
+.post1{
+	/* position: relative; */
+	margin-bottom: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow: hidden;
+}
+.post1 img{
+	width: 985px;
+	height: 450px;
+}
+.post2{
+	/* position: relative; */
+	margin-top: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow: hidden;
+}
+.post2 img{
+	width: 985px;
+	height: 450px;
+}
+.post3 img{
+	width: 985px;
+	height: 250px;
+}
+.post4 img{
+	width: 985px;
+	height: 550px;
+}
+.post5 img{
+	width: 985px;
+	height: 370px;
+}
+.post6 img{
+	width: 985px;
+	height: 400px;
+}
+.post7 img{
+	width: 985px;
+	height: 400px;
+}
+.post8 img{
+	width: 985px;
+	height: 430px;
+}
+.post9 img{
+	width: 985px;
+	height: 200px;
+}
+.post10{
+	background: url(../img/4/7.png) 0 0 no-repeat;
+	background-size: 985px 430px;
+	width: 985px;
+	height: 430px;
+}
+.post10 .po1{
+	float: left;
+	padding-left: 30px;	
+}
+.post10 .po2{
+	float: right;
+	padding-right: 30px;
+}
+.post10 .po3{
+	float: left;
+	padding-top: 10px;
+	padding-left: 30px;	
+}
+.post10 .po4{
+	float: right;
+	padding-top: 10px;
+	padding-right: 30px;
+}
+
+.post11 img{
+	width: 985px;
+	height: 200px;
+}
+
+.bottom1 {
+	width:100%;
+	overflow:hidden;
+	background-color: black;
+	font-size:14px;
+	margin: auto;
+	height: 36px;
+	line-height: 36px;
+}
+.bottom1 ul {
+	background-color: black;
+	width:100%;
+	height:36px;
+}
+.bottom1 li {
+	float:left;
+	height:36px;
+	line-height:36px;
+	overflow:hidden;
+	margin:0 170px 0 30px;
+	display:inline;
+}
+.bottom1 li a {
+	color:#fff;
+	font-weight:bold;
+}
+.btmhelp {
+	background:#e8e8ea;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.btmhelp dl {
+	float:left;
+	margin:10px 0;
+	padding:6px 55px 0;
+	display:inline;
+	background:url(../images/btm_line.gif) right 5px no-repeat;
+	height:94px;
+	line-height:22px;
+}
+.btmhelp dl.last {
+	background:none;
+}
+.btmhelp dt a {
+	color:#d31738;
+}
+.btmhelp dd a {
+	color:#666;
+}
+.topline {
+	position:absolute;
+	left:21px;
+	background:url(../images/btm_topline.gif) 0 0 repeat-x;
+	width:940px;
+	height:2px;
+	overflow:hidden;
+}
+#footer {
+	width:100%;
+	overflow:hidden;
+	margin-top:10px;
+}
+#footer ul {
+	text-align:center;
+}
+#footer li {
+	margin:10px 0;
+	color:#6a6a6a;
+}
+#footer li a {
+	margin:0 10px;
+}
+#footer li img {
+	border:none;
+	margin:0 5px;
+}
+.thinline {
+	width:100%;
+	height:2px;
+	overflow:hidden;
+	background:#bebec5;
+}
+.kefu img{
+	width: 100px;
+	height: 50px;
+	position:fixed;
+	top: 200px;
+	left: 1122px;
+}
+

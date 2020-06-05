@@ -1,0 +1,153 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#i1{
+	width: 1450px;
+	height: 120px;
+}
+
+.u1{
+list-style-type:none;
+margin:0;
+padding:0;
+padding-top:14px;
+padding-bottom:14px;
+
+}
+#gg{
+	width: 1450px;
+	height: 50px;
+	background-color: #FFE4B5;
+	/* background: linear-gradient(to top,white,moccasin); */
+}
+#gg li{
+	display: inline;
+	padding: 140px;
+}
+
+a:link,a:visited{
+	font-weight:bold;
+	color: #CD5C5C;
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+	text-transform:uppercase;
+
+}
+a:hover,a:active{
+background-color: antiquewhite;
+}
+
+#hh{
+	width: 1450px;
+	height: 570px;
+	background: linear-gradient(to top,moccasin,white);
+}
+
+
+.slide{/*设置播放器盒子slide的样式*/
+        position: relative;
+        margin:10px auto;
+        width: 1065px;
+        height: 450px;
+        text-align: center;
+        font-family: Arial;
+        color: #FFF;
+        overflow: hidden;
+    }
+.slide ul{
+        margin:10px 0;
+        padding:0;
+        width: 9999px;
+        transition:all 0.5s;/*控制所有动画完成时间是0.5秒，即完成一次图片切换勇士0.5秒*/
+    }
+.slide li{
+        float: left;
+        width: 1065px;
+        height: 450px;
+        list-style: none;
+        line-height: 200px;
+        font-size: 36px;
+    }
+.slide li:nth-child(1){/*:nth-child(n) 选择器匹配属于其父元素的第 N 个子元素，不论元素的类型。*/
+        background-image: url(../img/2/poster1.jpg);/*设置背景颜色*/
+		background-size: 1065px 450px;
+		
+    }
+.slide li:nth-child(2){
+		background-image: url(../img/2/poster4.jpeg);/*设置背景图片*/
+		background-size: 1065px 450px;
+    }
+.slide li:nth-child(3){
+        background-image: url(../img/2/poster3.jpg);
+		background-size: 1065px 450px;
+    }
+.slide input[name="sildeInput"]{
+        display: none;
+    }
+ 
+.slide label[for^="sildeInput"]{/*包含sildeInput的，统一进行样式设置，这里即设置文字123的统一样式*/
+        position: absolute;
+        top:420px;
+        width: 20px;
+        height: 20px;
+        margin: 0 10px;
+        line-height: 20px;
+        color: #FFF;
+        background: #000;
+        cursor: pointer;
+    }
+.slide label[for^="sildeInput"]:hover{ 
+		color:#F00;/*控制鼠标悬浮在文字上时，文字颜色变为红色*/
+		}
+		
+@keyframes marginLeft{/*以百分比来规定改变发生的时间，0% 是动画的开始时间，100% 动画的结束时间。*/
+        0%，28.5%{margin-left: 0;}
+        33.3%，62%{margin-left: -400px;}
+        66.7%，95.2%{margin-left: -800px;}
+        100%{margin-left: 0;}
+    }
+ 
+/*控制三个文字的样式*/
+.slide label[for="sildeInput1"]{
+        left: 0;
+    }
+.slide label[for="sildeInput2"]{
+        left: 30px;
+    }
+.slide label[for="sildeInput3"]{
+        left: 60px;
+    }
+	
+/*当点击按钮文字时2，控制ul显示的内容*/
+#sildeInput1:checked ~ ul{ margin-left: 0;}
+#sildeInput2:checked ~ ul{ margin-left: -1065px;}
+#sildeInput3:checked ~ ul{ margin-left: -2130px;}
+
+#down{
+	width: 1450px;
+	height: 50px;
+	background-color: brown;
+}
+.u2{
+list-style-type:none;
+margin:0;
+padding:0;
+padding-top:14px;
+padding-bottom:14px;
+padding-left: 1050px;
+}
+
+#down li{
+	
+	display: inline;
+	padding: 1px;
+}
+#down li a{
+	color: #FFFFFF;
+}
+#down li a:hover,a:active{
+	background-color: firebrick;
+}
